@@ -1,0 +1,197 @@
+---
+- - !ruby/object:Pawn
+    current_pos:
+    - 0
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 0
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:Pawn
+    current_pos:
+    - 1
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 1
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:Pawn
+    current_pos:
+    - 2
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 2
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:Pawn
+    current_pos:
+    - 3
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 3
+    - 6
+    color: black
+    unicode: "♟"
+  - &1 !ruby/object:Pawn
+    current_pos:
+    - 4
+    - 3
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 4
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:Pawn
+    current_pos:
+    - 5
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 5
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:Pawn
+    current_pos:
+    - 6
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 6
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:Pawn
+    current_pos:
+    - 7
+    - 1
+    color: white
+    unicode: "♙"
+  - !ruby/object:Pawn
+    current_pos:
+    - 7
+    - 6
+    color: black
+    unicode: "♟"
+  - !ruby/object:King
+    current_pos:
+    - 4
+    - 0
+    color: white
+    unicode: "♔"
+  - !ruby/object:King
+    current_pos:
+    - 4
+    - 7
+    color: black
+    unicode: "♚"
+  - !ruby/object:Queen
+    current_pos:
+    - 3
+    - 0
+    color: white
+    unicode: "♕"
+  - !ruby/object:Queen
+    current_pos:
+    - 3
+    - 7
+    color: black
+    unicode: "♛"
+  - !ruby/object:Rook
+    current_pos:
+    - 0
+    - 0
+    color: white
+    unicode: "♖"
+  - !ruby/object:Rook
+    current_pos:
+    - 7
+    - 0
+    color: white
+    unicode: "♖"
+  - !ruby/object:Rook
+    current_pos:
+    - 0
+    - 7
+    color: black
+    unicode: "♜"
+  - !ruby/object:Rook
+    current_pos:
+    - 7
+    - 7
+    color: black
+    unicode: "♜"
+  - !ruby/object:Bishop
+    current_pos:
+    - 2
+    - 0
+    color: white
+    unicode: "♗"
+  - !ruby/object:Bishop
+    current_pos:
+    - 5
+    - 0
+    color: white
+    unicode: "♗"
+  - !ruby/object:Bishop
+    current_pos:
+    - 2
+    - 7
+    color: black
+    unicode: "♝"
+  - !ruby/object:Bishop
+    current_pos:
+    - 5
+    - 7
+    color: black
+    unicode: "♝"
+  - !ruby/object:Knight
+    current_pos:
+    - 1
+    - 0
+    color: white
+    unicode: "♘"
+  - !ruby/object:Knight
+    current_pos:
+    - 6
+    - 0
+    color: white
+    unicode: "♘"
+  - !ruby/object:Knight
+    current_pos:
+    - 1
+    - 7
+    color: black
+    unicode: "♞"
+  - !ruby/object:Knight
+    current_pos:
+    - 6
+    - 7
+    color: black
+    unicode: "♞"
+- black
+- - - *1
+    - - 4
+      - 1
